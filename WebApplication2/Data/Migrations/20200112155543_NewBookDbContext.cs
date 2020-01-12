@@ -8,6 +8,7 @@ namespace WebApplication2.Data.Migrations
     public partial class NewBookDbContext : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
+
         {
             migrationBuilder.CreateTable(
                 name: "Books",
